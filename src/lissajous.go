@@ -7,7 +7,7 @@ import (
 	"io"
 	"math"
 	"math/rand"
-	"os"
+	//"os"
 )
 
 var palette = []color.Color{color.White, color.Black}
@@ -17,9 +17,9 @@ const (
 	balckIndex = 0
 )
 
-func main() {
-	lisssjous(os.Stdout)
-}
+//func main() {
+//	lisssjous(os.Stdout)
+//}
 
 func lisssjous(out io.Writer) {
 	const (
